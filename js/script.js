@@ -17,7 +17,7 @@ $(function($){
             
 		}).done(function(){
 					
-			$("#send").html("<div class='alert alert-success'>");
+			$("#send").html("<div class='alert alert-success' role='alert'>");
 			$("#send > .alert-success").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
 			.append("</button>");
 			$("#send > .alert-success").append($("<strong>").text("Email enviado com sucesso. Responderemos o mais breve possível."));
