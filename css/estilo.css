@@ -54,6 +54,11 @@ section {
     display: none;
 }
 
+.icone {
+    display: inline-flexbox;
+}
+
+
 @media (min-width: 992px) { 
 
     .img {
@@ -66,6 +71,10 @@ section {
 
     .brand {
         background-color: rgba(255, 255, 0, 0.973);
+    }
+
+    .icone {
+        display: none;
     }
 
 }
@@ -124,3 +133,14 @@ p {
 }
 
 /* contato */
+div > p > a {
+    font-size: 1rem;
+    /* display: none; */
+}
+
+i {
+    color: initial;
+}
+/* @media (min-width: 992px) { 
+    
+} */
