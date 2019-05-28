@@ -45,7 +45,7 @@ section {
     text-align: center;
 } 
 
-.card-deck, p, form {
+.card-deck, p, form, .alert {
     font-family: 'Sansita', sans-serif;
 }
 
@@ -122,3 +122,5 @@ p {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+/* contato */
