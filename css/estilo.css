@@ -17,25 +17,6 @@ body {
     border-radius: 3px;
 }
 
-@media (min-width: 992px) {
-    /* body {
-        background-image: url('../img/back.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    } */
-
-    .box {
-        margin: 20px 0 20px;
-        padding: 10px 10px;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-        box-shadow: 5px 5px 5px black;
-        border-radius: 3px;
-    }
-}
-
 section {
     padding-top: 50px;
     font-family: 'Great Vibes', cursive;
@@ -67,31 +48,6 @@ section {
     display: inline-flexbox;
 }
 
-/* .ico > a > i {
-    color: darkgray;
-} */
-
-
-@media (min-width: 992px) { 
-
-    .img {
-        height: 100px;
-        width: auto;
-        display: block;
-        margin: 0 auto 0 auto;
-        padding: 10px 0 10px;
-    }
-
-    .brand {
-        background-color: rgba(255, 255, 0, 0.973);
-    }
-
-    .icone {
-        display: none;
-    }
-
-}
-
  /* navbar */
 .navbar {
     background-color: rgb(255, 255, 0);
@@ -109,7 +65,38 @@ section {
     height: 40px;
 }
 
-@media (min-width: 992px) { 
+/* quem somos */
+.imgquem {
+    width: 250px; 
+    height: 250px;
+}
+ 
+p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* contato */
+div > p > a {
+    font-size: 1rem;
+}
+
+i {
+    color: initial;
+}
+
+@media (min-width: 992px) {
+
+    .box {
+        margin: 20px 0 20px;
+        padding: 10px 10px;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+        box-shadow: 5px 5px 5px black;
+        border-radius: 3px;
+    }
+
+    /* navbar */
     .image {
         display: none;
     }
@@ -132,25 +119,20 @@ section {
         font-size: 1.25rem;
     }
 
-}
+    /* logomarca */
+    .img {
+        height: 100px;
+        width: auto;
+        display: block;
+        margin: 0 auto 0 auto;
+        padding: 10px 0 10px;
+    }
 
-/* quem somos */
-.imgquem {
-    width: 250px; 
-    height: 250px;
-}
- 
-p {
-    font-size: 1.2rem;
-    font-weight: 500;
-}
+    .brand {
+        background-color: rgba(255, 255, 0, 0.973);
+    }
 
-/* contato */
-div > p > a {
-    font-size: 1rem;
-    /* display: none; */
-}
-
-i {
-    color: initial;
+    .icone {
+        display: none;
+    }
 }
