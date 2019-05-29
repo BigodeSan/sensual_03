@@ -58,6 +58,10 @@ section {
     display: inline-flexbox;
 }
 
+/* .ico > a > i {
+    color: darkgray;
+} */
+
 
 @media (min-width: 992px) { 
 
@@ -141,6 +145,3 @@ div > p > a {
 i {
     color: initial;
 }
-/* @media (min-width: 992px) { 
-    
-} */
