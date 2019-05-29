@@ -3,7 +3,7 @@ body {
     background-image: url('../img/back01.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -17,6 +17,14 @@ body {
 }
 
 @media (min-width: 992px) {
+    body {
+        background-image: url('../img/back.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     .box {
         margin: 20px 0 20px;
         padding: 10px 10px;
