@@ -1,7 +1,7 @@
 /* body */
 body {
     /* background-color: skyblue; */
-    background-image: url('../img/bg_360.jpg');
+    background-image: url('../img/back.jpg'); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,13 +18,13 @@ body {
 }
 
 @media (min-width: 992px) {
-    body {
+    /* body {
         background-image: url('../img/back.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    }
+    } */
 
     .box {
         margin: 20px 0 20px;
