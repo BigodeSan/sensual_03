@@ -88,6 +88,10 @@ div > p > a {
     font-size: 1rem;
 }
 
+.btn {
+    text-align: center;
+}
+
 i {
     color: initial;
 }
@@ -109,7 +113,7 @@ i {
     }
 
     .navbar {
-        background-color: rgba(0, 162, 255, 0.829);
+        background-color: rgba(0, 162, 255, 0.952);
         border-radius: 3px;
     }
 
@@ -122,7 +126,7 @@ i {
     }
 
     .dropdown-menu {
-        background-color: rgb(0, 217, 255);
+        background-color:rgba(0, 162, 255, 0.952);
         font-size: 1.25rem;
     }
 
@@ -141,5 +145,10 @@ i {
 
     .icone {
         display: none;
+    }
+
+    /* contato */
+    .btn {
+        text-align: left;
     }
 }
