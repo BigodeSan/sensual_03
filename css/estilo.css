@@ -53,6 +53,7 @@ section {
 
 .icone {
     display: inline-flexbox;
+    text-align: center;
 }
 
  /* navbar */
