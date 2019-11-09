@@ -153,4 +153,16 @@ i {
     .btn {
         text-align: left;
     }
+
+    .fa-whatsapp {
+        color: rgba(4, 133, 4, 0.973);
+    }
+
+    .fa-facebook-square {
+        color: rgba(0, 0, 255, 0.973);
+    }
+
+    .fa-instagram {
+        color: rgba(255, 208, 0, 0.966);
+    }
 }
