@@ -115,7 +115,7 @@ i {
     }
 
     .navbar {
-        background-color: rgba(0, 162, 255, 0.952);
+        background-color: rgba(0, 0, 255, 0.973);
         border-radius: 3px;
     }
 
@@ -128,7 +128,7 @@ i {
     }
 
     .dropdown-menu {
-        background-color:rgba(0, 162, 255, 0.952);
+        background-color:rgba(0, 0, 255, 0.973);
         font-size: 1.25rem;
     }
 
